@@ -1,0 +1,58 @@
+.AnimateUp {
+  animation: upAnimation1 1s ease;
+}
+
+@keyframes upAnimation1 {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.AnimateUpSpecific {
+  animation: upAnimation2 1s ease;
+}
+
+@keyframes upAnimation2 {
+  0% {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.AnimateLeft {
+  animation: upAnimation3 1s ease;
+}
+
+@keyframes upAnimation3 {
+  0% {
+    opacity: 0;
+    transform: translateX(-1.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.AnimateRight {
+  animation: upAnimation4 1s ease;
+}
+
+@keyframes upAnimation4 {
+  0% {
+    opacity: 0;
+    transform: translateX(1.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
