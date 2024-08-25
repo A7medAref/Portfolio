@@ -47,7 +47,7 @@ export default function Status() {
         className={classes.Block}
       >
         <Typography variant="h4" className={classes.Block1}>
-          +2
+          +3
         </Typography>
         <Typography className={classes.Block2}>experience</Typography>
       </Grid>
@@ -86,28 +86,28 @@ export default function Status() {
             <AnimateComponent top={-600} type="l" className="AnimateAboutPage">
               <Grid item style={{ minWidth: "100%", maxWidth: "100%" }}>
                 <ProgressSkills
+                  progress="90"
+                  title="NestJS"
+                  className={classes.Bars}
+                />
+                <ProgressSkills
+                  progress="85"
+                  title="PostgreSQL"
+                  className={classes.Bars}
+                />
+                <ProgressSkills
+                  progress="85"
+                  title="Docker"
+                  className={classes.Bars}
+                />
+                <ProgressSkills
                   progress="95"
-                  title="HTML"
+                  title="Redis"
                   className={classes.Bars}
                 />
                 <ProgressSkills
-                  progress="80"
-                  title="CSS"
-                  className={classes.Bars}
-                />
-                <ProgressSkills
-                  progress="85"
-                  title="Javascript"
-                  className={classes.Bars}
-                />
-                <ProgressSkills
-                  progress="85"
-                  title="React"
-                  className={classes.Bars}
-                />
-                <ProgressSkills
-                  progress="80"
-                  title="Material-UI"
+                  progress="90"
+                  title="Ansible"
                   className={classes.Bars}
                 />
               </Grid>

@@ -70,22 +70,21 @@ export default function AboutHero() {
               className={`${classes.who} AnimateUpSpecific`}
               style={{ marginBottom: "20px" }}
             >
-              Hello, my name is Ahmed Aref. I am a Programmer{" "}
-              {matchXs ? null : <br />}
-              &#38; <span>web developer</span>.
+              Hello, my name is Ahmed Aref. I am a {matchXs ? null : <br />}
+              &#38; <span>Platform Engineer</span>.
             </Typography>
             <Hidden mdDown>
               <Typography className={`${classes.who} AnimateUpSpecific`}>
                 Engineer
               </Typography>
               <Typography className={`${classes.who} AnimateUpSpecific`}>
-                Programmer
+                Back-end
               </Typography>
               <Typography className={`${classes.who} AnimateUpSpecific`}>
-                front-end
+                DevOps
               </Typography>
               <Typography className={`${classes.who} AnimateUpSpecific`}>
-                back-end
+                Front-end
               </Typography>
             </Hidden>
             {matchMd ? null : social}

@@ -1,43 +1,55 @@
 import { Grid, Typography } from "@material-ui/core";
 import { useStyle } from "./SkillsStyle";
-import Html from "../../../UI/Images/html5.svg";
-import css from "../../../UI/Images/css3.png";
-import js from "../../../UI/Images/javascript.jpg";
-import sass from "../../../UI/Images/sass.png";
 import react from "../../../UI/Images/react.png";
-import MU from "../../../UI/Images/materialUI.png";
 import git from "../../../UI/Images/git.png";
 import node from "../../../UI/Images/nodejs.png";
 import mongodb from "../../../UI/Images/mongodb.png";
-import algorithms from "../../../UI/Images/algorithms.svg";
-import clouds from "../../../UI/Images/clouds.svg";
-import PS from "../../../UI/Images/problemSolving.svg";
-import TS from "../../../UI/Images/Typescript.png";
+import nestjs from "../../../UI/Images/nestjs.png";
+import postgres from "../../../UI/Images/postgresql.png";
+import redis from "../../../UI/Images/redis.png";
+import elasticsearch from "../../../UI/Images/elasticsearch.png";
+import k8s from "../../../UI/Images/k8s.png";
+import ansible from "../../../UI/Images/ansible.svg";
+import terraform from "../../../UI/Images/terraform.svg";
+import githubActions from "../../../UI/Images/github-actions.png";
+import distributedSystems from "../../../UI/Images/distributed-systems.png";
+import systemDesign from "../../../UI/Images/system-design.png";
+import databaseOptimization from "../../../UI/Images/database-optimization.png";
+import devOps from "../../../UI/Images/devops.png";
 import c from "../../../UI/Images/c++.png";
 import docker from "../../../UI/Images/docker.png";
+import ts from "../../../UI/Images/typescript.png";
 import py from "../../../UI/Images/python.png";
+import cloud from "../../../UI/Images/clouds.svg";
+import csharp from "../../../UI/Images/csharp.svg";
 import AnimateAbout from "../../../UI/Animating/AnimateAbout";
 const usingNow = [
-  [Html, "Html5", "1"],
-  [css, "Css3", "1"],
-  [sass, "Sass", "2"],
-  [js, "Javascript", "1"],
-  [react, "React", "2"],
-  [MU, "Material-Ui", "2"],
-  [node, "Node", "1"],
+  [node, "NodeJS", "1"],
+  [nestjs, "NestJS", "1"],
+  [postgres, "Postgres", "1"],
   [mongodb, "Mongodb", "3"],
+  [redis, "Redis", "1"],
+  [elasticsearch, "Elasticsearch", "1"],
+  [docker, "Docker", "4"],
+  [k8s, "Kubernetes", "1"],
+  [ansible, "Ansible", "1"],
+  [terraform, "Terraform", "1"],
+  [cloud, "Cloud Computing", "1"],
+  [githubActions, "Github Actions", "1"],
 ];
-const learning = [
-  [algorithms, "algorithms", "2"],
-  [docker, "docer", "4"],
-  [clouds, "clouds", "1"],
-  [TS, "typescript", "1"],
+const areasOfExpertise = [
+  [distributedSystems, "Distributed Systems", "2"],
+  [systemDesign, "System Design", "2"],
+  [databaseOptimization, "Database Optimization", "2"],
+  [devOps, "DevOps", "2"],
 ];
 const other = [
-  [c, "C++", "1"],
-  [PS, "Problem Solving", "1"],
+  [csharp, "C#", "1"],
+  [react, "React", "1"],
   [git, "Git", "1"],
   [py, "python", "1"],
+  [ts, "Typescript", "1"],
+  [c, "C++", "1"],
 ];
 
 export default function Skills() {
@@ -74,10 +86,10 @@ export default function Skills() {
           {usingNow.map(Data)}
           <Grid container justifyContent="center">
             <Typography variant="subtitle2" className={classes.Title2}>
-              LEARNING
+              AREAS OF EXPERTISE
             </Typography>
           </Grid>
-          {learning.map(Data)}
+          {areasOfExpertise.map(Data)}
           <Grid container justifyContent="center">
             <Typography variant="subtitle2" className={classes.Title2}>
               OTHER SKILLS

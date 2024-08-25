@@ -36,12 +36,12 @@ export default function AboutHome({ setValue }) {
                   About Myself
                 </Typography>
                 <Typography variant="body1">
-                  I am Ahmed Aref, a Full Stack Web developer. I learnt
-                  Programming when I was 18 years old. I learnt basic coding
-                  from a university course, and ever since then my passion has
-                  solely been set on learning — learning about computers ,
-                  learning mathematics, and learning physics, always just
-                  learning.
+                  I am Ahmed Aref, a Platform Engineer with expertise in backend
+                  development and DevOps. I specialize in designing scalable
+                  systems that handle high loads efficiently. My experience
+                  includes cloud computing, container orchestration, and
+                  building robust solutions to enhance system performance and
+                  reliability in dynamic environments.
                 </Typography>
                 {matchMd ? null : aboutButton}
               </Grid>
@@ -52,28 +52,28 @@ export default function AboutHome({ setValue }) {
             <AnimateComponent type="l" className="AnimateAboutHome">
               <Grid item style={{ minWidth: "100%", maxWidth: "100%" }}>
                 <ProgressSkills
+                  progress="90"
+                  title="NestJS"
+                  className={classes.Bars}
+                />
+                <ProgressSkills
+                  progress="85"
+                  title="PostgreSQL"
+                  className={classes.Bars}
+                />
+                <ProgressSkills
+                  progress="85"
+                  title="Docker"
+                  className={classes.Bars}
+                />
+                <ProgressSkills
                   progress="95"
-                  title="HTML"
+                  title="Redis"
                   className={classes.Bars}
                 />
                 <ProgressSkills
-                  progress="80"
-                  title="CSS"
-                  className={classes.Bars}
-                />
-                <ProgressSkills
-                  progress="85"
-                  title="Javascript"
-                  className={classes.Bars}
-                />
-                <ProgressSkills
-                  progress="85"
-                  title="React"
-                  className={classes.Bars}
-                />
-                <ProgressSkills
-                  progress="80"
-                  title="Material-UI"
+                  progress="90"
+                  title="Ansible"
                   className={classes.Bars}
                 />
                 {matchMd ? aboutButton : null}
