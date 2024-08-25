@@ -70,12 +70,12 @@ export default function Status() {
                   About Myself
                 </Typography>
                 <Typography variant="body1">
-                  I am Ahmed Aref, a Full Stack Web developer. I learnt
-                  Programming when I was 18 years old. I learnt basic coding
-                  from a university course, and ever since then my passion has
-                  solely been set on learning — learning about computers ,
-                  learning mathematics, and learning physics, always just
-                  learning.
+                  I am Ahmed Aref, a Platform Engineer with expertise in backend
+                  development and DevOps. I specialize in designing scalable
+                  systems that handle high loads efficiently. My experience
+                  includes cloud computing, container orchestration, and
+                  building robust solutions to enhance system performance and
+                  reliability in dynamic environments.
                 </Typography>
                 {aboutButton}
               </Grid>

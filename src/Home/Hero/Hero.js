@@ -80,7 +80,7 @@ export default function Hero() {
               </Typography>
               <Typography variant="h1">Ahmed M. Aref</Typography>
               <Typography variant="subtitle1">
-                Full Stack Web Developer
+                Backend & DevOps Engineer
               </Typography>
             </Grid>
             {matchMd ? null : social}
